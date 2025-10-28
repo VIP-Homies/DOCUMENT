@@ -144,7 +144,7 @@ crontab -e
 
 * * * * * /usr/bin/python3 /full/path/to/myscript.py - 
 Replace /full/path/to/myscript.py with the absolute path of your script.
-Example: /home/shreyas/Experiment6/myscript.py
+Example: /home/XYZ/Experiment6/myscript.py
 
 3.Save and exit
 
