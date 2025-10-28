@@ -36,7 +36,7 @@ echo "Sum = $(($a + $b))"
 Ctrl + X -> Y -> Enter
 chmod +x calculator.sh
 
-ubuntu@ip-172-31-18-249:~$ ./calculator.sh
+ubuntu@ip-172-41-18-269:~$ ./calculator.sh
 Enter two numbers:
 11
 2
