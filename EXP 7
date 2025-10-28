@@ -1,0 +1,70 @@
+Exp 7
+
+1. Search aws.amazon.com
+
+
+2. If not a user → enter email, password, and code
+
+
+3. Search Amazon S3
+
+
+4. Create bucket
+
+
+5. Name: om-buckets
+
+
+6. Search Lambda → Functions
+
+
+7. Create function
+
+Runtime: Python 3.9 (or Node.js)
+
+Function name: om-lambda
+
+Click on Create function
+
+
+
+8. In the new panel → + Add trigger
+
+
+9. Select source → S3 (search)
+
+Event type → ☑️ PUT
+
+Bucket name → om-buckets
+
+Click Add
+
+
+
+10. Code →
+
+
+
+Modify the code (change a sentence in code)
+
+Click Deploy button
+
+Message: Successfully updated
+
+
+11. Go to Lambda → Dashboard → Shows Lambda function
+
+
+12. Search Amazon S3 → Open bucket (created earlier)
+
+
+13. Upload any file (Add files) from your local system → Upload successfully
+
+
+14. Search CloudWatch → Logs
+
+
+
+Go to Log groups
+
+Click on /aws/lambda/om-lambda
